@@ -1,7 +1,7 @@
 this is a just blog
 ===================
 
-# [1.如果把年龄看作钱]()
+# [1.如果把年龄看作钱](https://github.com/SH1996/malphite_SH/blob/master/如果把年龄看作钱.md)
 ## 章节：
 
 - [ ] 启发
