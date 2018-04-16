@@ -10,3 +10,5 @@ github的配置：在github的传输仓库中有两个重要的文件，一个�
 Staged（被暂存的），unTracked（没有被跟踪的），modify(修改的)，Unmodify（没有被修改的）
 工作区中的数据有modify和untracked，暂存区中的状态是staged，本地仓库中的状态是unmodify
 转换命令：add comit checkout
+
+[config文件_错误补充：](https://github.com/mandyllano/demo/wiki/关于git初步配置的相关问题)
