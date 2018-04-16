@@ -12,7 +12,7 @@ this is a just blog
 
 - [ ] 世界的老人在做最假的打算
 
-# [2.对github与否多少？]()
+# [2.对github与否多少？](./GitHub_2.md)
 ## 章节：
 
 - [ ] 对于开源社区的想法
