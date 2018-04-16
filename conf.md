@@ -7,13 +7,12 @@
 
 3.gitconfig文件简介：
 
-  git软件初次创建本地仓库会默认生成一个gitconfig的配置文件，这个文件中会有一些默认的配置参数随初始化而生成，这些参数是可能根据电脑系统的信号自动生成的，
-  重要的是有些很友好的配置参数我们需要知道，其中有：消除换行警告，简化bash命令中的复杂命令，设置别名代替，不在重复登陆用户的凭证
+  git软件初次创建本地仓库会默认生成一个gitconfig的配置文件（但是分全局和单个），这个文件中会有一些默认的配置参数随初始化而生成，这些参数是可能根据电脑系统的信号自动生成的，重要的是有些很友好的配置参数我们需要知道，其中有：消除换行警告，简化bash命令中的复杂命令，设置别名代替，不在重复登陆用户的凭证
   
   1).换行：对于window系统是需要使用这个命令配置下载文件参数：
   
-      git config --golbal core.autocrlf true（widnow默认）
-      git config --golbal core.safecrlf false（window需要添加的）
+      git config --global core.autocrlf true（widnow默认）
+      git config --global core.safecrlf false（window需要添加的）
       
       解释：cr 回车 ／r --> return 
            lf 换行 ／n --> newline
