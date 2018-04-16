@@ -16,14 +16,14 @@ git命令：
 # 添加／删除／提交／坠下／移动改名
   git add || git commit -am "" || git rm || git vm
   
-# 一个文件多个位置分别提交
+# 一个文件多个位置多次提交
   git add -p a.txt(基于这个命令可以说明：github是基于修改变更的来操作的，而不是基于文件的)
   输入s
   然后提示需要让入暂存区的修改输入y，不需要输入n
   git diff 查看变更
   最后全部提交：git add .
   
-# [文档提交格式书写](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+# [提交注解格式书写](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
  
 # 深入git查看信息：
   git status -sb
