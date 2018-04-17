@@ -7,8 +7,8 @@ Not limited to your own small world is the great joy of life. The more difficult
   1--github使用前的一个准备: 
     [guide](https://github.com/phodal/github),
     [guide](http://rogerdudler.github.io/git-guide/index.zh.html),
-    [guide](https://git-scm.com/book/zh/v1/)
-    [ruanyifeng](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
+    [guide](https://git-scm.com/book/zh/v1/),
+    [ruanyifeng](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html),
     [preface](./preface.md),
     [两个配置文件](./conf.md),
     [使用工具下载](./download.md)
