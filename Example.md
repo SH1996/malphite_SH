@@ -43,7 +43,7 @@ git命令：
   如果是想在前面的基础之上比较暂存区和提交的某一条变更之间的差异，可以在提交的变更之上添加tag，git tag TTT HEAD~2,然后git diff --cached TTT, 
   那么这就表示暂存区和标记的那个提交变更之间的差异。 
 
-# git reset的回撤： 
+# git reset的回撤 [直观](https://blog.csdn.net/qidi_huang/article/details/53839591)： 
   从提交回撤到暂存区：git reset HEAD --soft  
   从暂存区回撤到工作区：git reset HEAD 还有一个命令是回撤到工作区时抛弃工作区存在的文件 git checkout -- files; 
   从提交仓库回撤提交，直接删除：git reset --hard 
