@@ -44,9 +44,9 @@ git命令：
   那么这就表示暂存区和标记的那个提交变更之间的差异。 
 
 # git reset的回撤 [直观](https://blog.csdn.net/qidi_huang/article/details/53839591)： 
-  从提交回撤到暂存区：git reset HEAD --soft  
+  从提交回撤到暂存区：git reset --soft HEAD~1 
   从暂存区回撤到工作区：git reset HEAD 还有一个命令是回撤到工作区时抛弃工作区存在的文件 git checkout -- files; 
-  从提交仓库回撤提交，直接删除：git reset --hard 
+  从提交仓库回撤提交，直接删除：git reset --hard HEAD~1
   回撤远程仓库后强制推上：git push -f  其中-f就是-force（不建议使用，实际中会干扰分布式其他人的仓库混乱） 
   
 # 变基操作 
