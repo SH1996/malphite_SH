@@ -67,5 +67,18 @@ git命令：
   6.git push origin :refs/tagss/TTT 推送删除后的标签，推送上去
   
   7.git tag 查看不到远程标签了
+ 
+# Team 时修改同一个文件冲突解决：
   
+  1.首先我们需要git pull origin master --rebase将本地仓库和远程同步一下，然后就是三方合并，除非被人没有推送
+  
+  2.冲突问题出现，别人做了提交，使不同文件，使用1.
+  
+  3.如果问题冲突，在同一个文件，那么然后根据提示信息operations，使用到git rebase 的操作，不行就返回变基操作开始状态，应为变基操作是原子性的。
+  
+  4.返回变基操作git rebase --abort，然后在根据提示git rebase --continue,【命令忘记了这时可以git status 来输出提示下一步】
+  
+  5.git push origin master 和 git push origin master --rebase 区别是三方合并原理，和一条线的变基原理（操作原子性），但是结果没什么区别
+  
+  ，相比一般会使用后者，历史记录查看清晰；
 
