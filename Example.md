@@ -53,12 +53,19 @@ git命令：
   git rebase -i HEAD～3（其中HEAD～3表示最后提交的前三个提交历史，然后编辑文本变基，变基是更高级的修改提交的历史，可以任意合并提交历史） 
   
 # Tag
+  
   1.git tag 查看本地tag
+  
   2.git tag TTT HEAD -m "message 可有可无"在当前分支添加标签
+  
   3.git push origin --tags 推送全部标签
+  
   4.git push origin TTT 推送一个标签
+  
   5.git tag -d TTT 删除ttt标签
+  
   6.git push origin :refs/tagss/TTT 推送删除后的标签，推送上去
+  
   7.git tag 查看不到远程标签了
   
 
