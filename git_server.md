@@ -8,3 +8,5 @@
       4.禁止git的shell登陆 
       5.更新http协议：：：yum update -y nss curl libcurl 
       6.克隆git仓库 
+
+3.码云服务器：
