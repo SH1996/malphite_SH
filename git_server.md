@@ -2,9 +2,9 @@
 
 2.自己Cen OS里面的搭建：
 
-      1.
-      2.
-      3.
-      4.
-      5.
-      6.
+      1.先安装git ---- yum install git 
+      2.adduser git  
+      3.修改git用户为仓库拥有者 
+      4.禁止git的shell登陆 
+      5.更新http协议：：：yum update -y nss curl libcurl 
+      6.克隆git仓库 
