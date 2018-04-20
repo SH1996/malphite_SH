@@ -12,6 +12,7 @@ Not limited to your own small world is the great joy of life. The more difficult
     [preface](./preface.md),
     [两个配置文件](./conf.md),
     [使用工具下载](./download.md)
+    [git服务器](./git_server.md)
     
 # 3.github_SH_第二阶:
  
