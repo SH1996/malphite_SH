@@ -14,8 +14,8 @@
 - [ ] using:
   
     1).mvn help:describe -Dplugin=war -Ddetail   ------>   terminal查看maven插件，没有会先下载
-    2).
-    3).
+    2).mvn help:system ------>  初始化下载  
+    3).
     4).
     5).
     6).
