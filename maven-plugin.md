@@ -7,30 +7,23 @@
 
 - [ ] configuration:
 
-  
-  1).maven插件很多，插件需要command下载到repository中，using中说明terminal下载方式，           
-  2).maven项目报错plugin方面有几个方面的问题：
-    a.配置文件（例如：Mirror配置多个产生版本不一）
-    b.缺少插件（去本地仓库查看）
-    c.eclipse没有集成maven（没有安装m2e）
+      1).maven插件很多，插件需要command下载到repository中，using中说明terminal下载方式        
+      2).maven项目报错plugin方面有几个方面的问题:a.配置文件（例如：Mirror配置多个产生版本不一）b.缺少插件（去本地仓库查看）c.eclipse没有集成maven（没有安装m2e）
     
- 
 
 - [ ] using:
-
   
-  1).mvn help:describe -Dplugin=war -Ddetail   ------>   terminal查看maven插件，没有会先下载
-  2).
-  3).
-  4).
-  5).
-  6).
+    1).mvn help:describe -Dplugin=war -Ddetail   ------>   terminal查看maven插件，没有会先下载
+    2).
+    3).
+    4).
+    5).
+    6).
   
   
 
 - [ ] plugin:
 
-  
   1).
   2).
   3).
