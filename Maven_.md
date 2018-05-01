@@ -6,4 +6,4 @@
 
 4.eclipse中使用maven[![4.eclipse中使用maven](./img/驯鹿.png)](./maven-eclipse.md)
 
-5.项目迁移—开发环境[![5.项目迁移](./img/装饰品.png)](./prejects.md)
+5.项目迁移—开发环境[![5.项目迁移](./img/装饰品.png)](./projects.md)
