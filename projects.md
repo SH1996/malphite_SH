@@ -11,6 +11,15 @@
    2.检查Build Path中是否version正确
    
    ```
- 
+ 3.maven创建项目报错：Classpath entry org.maven.eclipse.MAVEN2_CLASSPATH_CONTAINER will not be exported or published
+ ```
+ eclipse打开navigator，修改setting.xml文件内容，如下。
+ <classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER">  
+    <attributes>  
+        <attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>  
+    </attributes>  
+	</classpathentry>
+ 然后可以在alt+enter中（java build path／deployed assembly）可以发现改变。
+ ```
  ···后续
  
