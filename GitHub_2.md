@@ -19,8 +19,8 @@ Not limited to your own small world is the great joy of life. The more difficult
   1--理解分布式:
     [团队协作](./Team.md),
     [实例](./Example.md),
-    [下一步](./Next.md)
-    [PR](./github_PR操作.txt)
+    [下一步](./Next.md),
+    [PR操作](./github_PR操作.txt)
   
     
     
