@@ -1,0 +1,18 @@
+fork之后：
+	1.git clone https://
+	2.git remote -v 
+	3.git remote add upstream https://
+	4.git remote -v
+	5.git fetch upstream
+	6.git rebase upstream/master
+	7.git push origin master
+	8.git checkout -b dev
+	9.git status
+	10.git add . 
+	11.git commit -m "123"
+	12.git push origin dev
+
+e.g.
+
+	https://github.com/CyC2018/CS-Notes.git
+
